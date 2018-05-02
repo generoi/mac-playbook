@@ -54,7 +54,6 @@ homebrew_installed_packages:
   # Essential development tools/libraries.
   - bash-completion2          # bash 4
   - composer
-  - drush-launcher            # drupal cli
   - openssl                   # ssl/tls toolkit
   - ssh-copy-id               # send public key to remote
 
@@ -76,6 +75,7 @@ homebrew_services: []
 composer_packages:
   - name: hirak/prestissimo    # parallel composer downloads
   - name: wp-cli/wp-cli        # wp cli tool
+  - name: drush/drush-launcher # drupal cli tool
 
 npm_packages:
   - name: yarn                 # package manager
