@@ -27,7 +27,7 @@ clean:
 	sudo easy_install pip
 
 /usr/local/bin/ansible-playbook: /usr/local/bin/pip
-	sudo -H pip install ansible
+	sudo -H pip install 'ansible>=2.4.0,<2.5.0'
 
 ./roles:
 	ansible-galaxy install -r requirements.yml
