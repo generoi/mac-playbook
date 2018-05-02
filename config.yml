@@ -61,7 +61,6 @@ homebrew_installed_packages:
 homebrew_taps:
   - caskroom/cask          # casks
   - homebrew/core          #
-  - homebrew/php           #
 
 homebrew_cask_apps:
   - firefox                # crossbrowser testing
