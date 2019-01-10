@@ -84,7 +84,9 @@ npm_packages:
 
 gem_packages:
   - name: bundler              # package manager
+    executable: /usr/local/opt/ruby/bin/gem
   - name: capistrano           # deploy tool
+    executable: /usr/local/opt/ruby/bin/gem
 
 post_provision_tasks: "{{ playbook_dir }}/../tasks/*.yml"
 
