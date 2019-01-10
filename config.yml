@@ -39,15 +39,15 @@ homebrew_installed_packages:
   - git
   - openssh
   - perl
-  - python
   - rsync
   - svn
   - unzip
-  - { name: vim, install_options: "with-override-system-vi" }
+  - vim
 
   # Additional programming languages
   - node
-  - { name: php71, install_options: "with-pear,without-fpm" }
+  - php
+  - python2
   - python3
   - ruby
 
@@ -58,7 +58,6 @@ homebrew_installed_packages:
   - ssh-copy-id               # send public key to remote
 
 homebrew_taps:
-  - caskroom/cask          # casks
   - homebrew/core          #
 
 homebrew_cask_apps:
